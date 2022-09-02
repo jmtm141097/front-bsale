@@ -84,13 +84,16 @@ const armarProductos = (products) => {
             (acc = acc.concat(`
         <div class="col">
             <div class="card h-100">
-                <img src="${product.url_image}" class="card-img-top" alt="${product.name}" />
+                <img src="${product.url_image}" style="height: 200px" class="card-img-top" alt="${product.name}" />
                 <div class="card-body">
                     <h5 class="card-title">${product.name}</h5>
                     <p class="card-text">
                         This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.
                     </p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-plus"></i> Precio: ${product.price}</a>
                 </div>
             </div>
         </div>
