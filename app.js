@@ -1,4 +1,4 @@
-const API_URL_CATEGORIES = 'https://back-bsale2.herokuapp.com/v1/api/'
+const API_URL_CATEGORIES = 'https://back-bsale2.herokuapp.com/v1/api'
 const HTMLCategories = document.querySelector('#categorias')
 const HTMLProducts = document.querySelector('#products')
 
